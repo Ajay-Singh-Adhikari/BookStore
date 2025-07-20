@@ -30,7 +30,7 @@ const Login = () => {
       password: data.password,
     };
     await axios
-      .post("https://bookstore-backend-wdxz.onrender.com", userInfo)
+      .post("https://bookstore-backend-wdxz.onrender.com/login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
