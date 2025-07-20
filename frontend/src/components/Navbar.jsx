@@ -40,7 +40,7 @@ const Navbar = () => {
     <div
       className={`flex justify-between items-center px-4 md:px-6 lg:px-8 py-2 fixed top-0 left-0 right-0 z-50 ${
         sticky
-          ? "shadow-[0_8px_30px_rgba(34,197,94,0.4)] backdrop-blur bg-gradient-to-r from-white via-green-300 to-white dark:from-slate-900 dark:via-green-900 dark:to-slate-900"
+          ? "shadow-[0_8px_30px_rgba(34,197,94,0.4)] backdrop-blur bg-gradient-to-r from-white via-green-300 to-white dark:bg-slate-800"
           : "shadow-sm bg-gray-200 dark:bg-slate-800"
       } text-black dark:text-white`}
     >
