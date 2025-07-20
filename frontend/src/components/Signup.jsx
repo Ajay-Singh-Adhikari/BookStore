@@ -18,7 +18,7 @@ const Signup = () => {
       password: data.password,
     };
     await axios
-      .post("https://bookstore-backend-wdxz.onrender.com", userInfo)
+      .post("https://bookstore-backend-wdxz.onrender.com/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
